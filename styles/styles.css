@@ -17,12 +17,12 @@
   --background-color: white;
   --light-color: #eee;
   --dark-color: #ccc;
-  --text-color: black;
+  --text-color: #001e60;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback;
+  --body-font-family: 'Brando Sans', roboto-fallback;
   --heading-font-family: var(--body-font-family);
-  --fixed-font-family: 'Roboto Mono', menlo, consolas, 'Liberation Mono', monospace;
+  --fixed-font-family: roboto, menlo, consolas, 'Liberation Mono', monospace;
 
   /* body sizes */
   --body-font-size-m: 22px;
@@ -38,7 +38,7 @@
   --heading-font-size-xs: 18px;
 
   /* nav height */
-  --nav-height: 64px;
+  --nav-height: 85px;
 }
 
 @font-face {
@@ -67,6 +67,7 @@ body {
   color: var(--text-color);
   background-color: var(--background-color);
   display: none;
+  text-align: center;
 }
 
 body.appear {
@@ -84,7 +85,7 @@ h4,
 h5,
 h6 {
   font-family: var(--heading-font-family);
-  font-weight: 600;
+  font-weight: 200;
   line-height: 1.25;
   margin-top: 1em;
   margin-bottom: 0.5em;

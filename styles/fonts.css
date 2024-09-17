@@ -16,3 +16,24 @@
   src: url('../fonts/roboto-regular.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
+
+
+@font-face {
+  font-family: 'Brando Sans';
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('https://www.insperity.com/wp-content/themes/sage10/public/fonts/Brando/Brando%20Sans%20LF%20Light.030302.otf') format('opentype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Brando Sans';
+  font-style: bold;
+  font-weight: 600;
+  font-display: swap;
+  src: url('https://www.insperity.com/wp-content/themes/sage10/public/fonts/Brando/Brando%20Sans%20LF%20Bold.e8ce6d.otf') format('opentype');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+

@@ -11,4 +11,17 @@ footer .footer {
 
 footer .footer p {
   margin: 0;
+  text-align: left;
+}
+
+footer .footer ul {
+  list-style: none;
+  text-align: left;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+footer .footer img {
+  max-width: 150px;
+  max-height: 150px;
 }
